@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD35360289EDC0A005AB80B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3535F289EDC0A005AB80B /* AppDelegate.swift */; };
+		FAD35362289EDC0A005AB80B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35361289EDC0A005AB80B /* SceneDelegate.swift */; };
+		FAD35364289EDC0A005AB80B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35363289EDC0A005AB80B /* ViewController.swift */; };
+		FAD35367289EDC0A005AB80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD35365289EDC0A005AB80B /* Main.storyboard */; };
+		FAD35369289EDC0C005AB80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD35368289EDC0C005AB80B /* Assets.xcassets */; };
+		FAD3536C289EDC0C005AB80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3536A289EDC0C005AB80B /* LaunchScreen.storyboard */; };
+		FAD35377289EDC0C005AB80B /* AvriocAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */; };
+		FAD35381289EDC0D005AB80B /* AvriocAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */; };
+		FAD35383289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD35373289EDC0C005AB80B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD35354289EDC0A005AB80B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD3535B289EDC0A005AB80B;
+			remoteInfo = AvriocAssessment;
+		};
+		FAD3537D289EDC0D005AB80B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD35354289EDC0A005AB80B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD3535B289EDC0A005AB80B;
+			remoteInfo = AvriocAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvriocAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3535F289EDC0A005AB80B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD35361289EDC0A005AB80B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD35363289EDC0A005AB80B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD35366289EDC0A005AB80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD35368289EDC0C005AB80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD3536B289EDC0C005AB80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD3536D289EDC0C005AB80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvriocAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentTests.swift; sourceTree = "<group>"; };
+		FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvriocAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITests.swift; sourceTree = "<group>"; };
+		FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD35359289EDC0A005AB80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3536F289EDC0C005AB80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD35379289EDC0D005AB80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD35353289EDC0A005AB80B = {
+			isa = PBXGroup;
+			children = (
+				FAD3535E289EDC0A005AB80B /* AvriocAssessment */,
+				FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */,
+				FAD3537F289EDC0D005AB80B /* AvriocAssessmentUITests */,
+				FAD3535D289EDC0A005AB80B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD3535D289EDC0A005AB80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */,
+				FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */,
+				FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD3535E289EDC0A005AB80B /* AvriocAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3535F289EDC0A005AB80B /* AppDelegate.swift */,
+				FAD35361289EDC0A005AB80B /* SceneDelegate.swift */,
+				FAD35363289EDC0A005AB80B /* ViewController.swift */,
+				FAD35365289EDC0A005AB80B /* Main.storyboard */,
+				FAD35368289EDC0C005AB80B /* Assets.xcassets */,
+				FAD3536A289EDC0C005AB80B /* LaunchScreen.storyboard */,
+				FAD3536D289EDC0C005AB80B /* Info.plist */,
+			);
+			path = AvriocAssessment;
+			sourceTree = "<group>";
+		};
+		FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */,
+			);
+			path = AvriocAssessmentTests;
+			sourceTree = "<group>";
+		};
+		FAD3537F289EDC0D005AB80B /* AvriocAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */,
+				FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */,
+			);
+			path = AvriocAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD3535B289EDC0A005AB80B /* AvriocAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessment" */;
+			buildPhases = (
+				FAD35358289EDC0A005AB80B /* Sources */,
+				FAD35359289EDC0A005AB80B /* Frameworks */,
+				FAD3535A289EDC0A005AB80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvriocAssessment;
+			productName = AvriocAssessment;
+			productReference = FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD35371289EDC0C005AB80B /* AvriocAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentTests" */;
+			buildPhases = (
+				FAD3536E289EDC0C005AB80B /* Sources */,
+				FAD3536F289EDC0C005AB80B /* Frameworks */,
+				FAD35370289EDC0C005AB80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD35374289EDC0C005AB80B /* PBXTargetDependency */,
+			);
+			name = AvriocAssessmentTests;
+			productName = AvriocAssessmentTests;
+			productReference = FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD3537B289EDC0D005AB80B /* AvriocAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentUITests" */;
+			buildPhases = (
+				FAD35378289EDC0D005AB80B /* Sources */,
+				FAD35379289EDC0D005AB80B /* Frameworks */,
+				FAD3537A289EDC0D005AB80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD3537E289EDC0D005AB80B /* PBXTargetDependency */,
+			);
+			name = AvriocAssessmentUITests;
+			productName = AvriocAssessmentUITests;
+			productReference = FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD35354289EDC0A005AB80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FAD3535B289EDC0A005AB80B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FAD35371289EDC0C005AB80B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FAD3535B289EDC0A005AB80B;
+					};
+					FAD3537B289EDC0D005AB80B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FAD3535B289EDC0A005AB80B;
+					};
+				};
+			};
+			buildConfigurationList = FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "AvriocAssessment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD35353289EDC0A005AB80B;
+			productRefGroup = FAD3535D289EDC0A005AB80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD3535B289EDC0A005AB80B /* AvriocAssessment */,
+				FAD35371289EDC0C005AB80B /* AvriocAssessmentTests */,
+				FAD3537B289EDC0D005AB80B /* AvriocAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD3535A289EDC0A005AB80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3536C289EDC0C005AB80B /* LaunchScreen.storyboard in Resources */,
+				FAD35369289EDC0C005AB80B /* Assets.xcassets in Resources */,
+				FAD35367289EDC0A005AB80B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD35370289EDC0C005AB80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3537A289EDC0D005AB80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD35358289EDC0A005AB80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD35364289EDC0A005AB80B /* ViewController.swift in Sources */,
+				FAD35360289EDC0A005AB80B /* AppDelegate.swift in Sources */,
+				FAD35362289EDC0A005AB80B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3536E289EDC0C005AB80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD35377289EDC0C005AB80B /* AvriocAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD35378289EDC0D005AB80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD35383289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift in Sources */,
+				FAD35381289EDC0D005AB80B /* AvriocAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD35374289EDC0C005AB80B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD3535B289EDC0A005AB80B /* AvriocAssessment */;
+			targetProxy = FAD35373289EDC0C005AB80B /* PBXContainerItemProxy */;
+		};
+		FAD3537E289EDC0D005AB80B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD3535B289EDC0A005AB80B /* AvriocAssessment */;
+			targetProxy = FAD3537D289EDC0D005AB80B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD35365289EDC0A005AB80B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD35366289EDC0A005AB80B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD3536A289EDC0C005AB80B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD3536B289EDC0C005AB80B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD35384289EDC0D005AB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD35385289EDC0D005AB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD35387289EDC0D005AB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvriocAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD35388289EDC0D005AB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvriocAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD3538A289EDC0D005AB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvriocAssessment.app/AvriocAssessment";
+			};
+			name = Debug;
+		};
+		FAD3538B289EDC0D005AB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvriocAssessment.app/AvriocAssessment";
+			};
+			name = Release;
+		};
+		FAD3538D289EDC0D005AB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvriocAssessment;
+			};
+			name = Debug;
+		};
+		FAD3538E289EDC0D005AB80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvriocAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "AvriocAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD35384289EDC0D005AB80B /* Debug */,
+				FAD35385289EDC0D005AB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD35387289EDC0D005AB80B /* Debug */,
+				FAD35388289EDC0D005AB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3538A289EDC0D005AB80B /* Debug */,
+				FAD3538B289EDC0D005AB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3538D289EDC0D005AB80B /* Debug */,
+				FAD3538E289EDC0D005AB80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD35354289EDC0A005AB80B /* Project object */;
+}
