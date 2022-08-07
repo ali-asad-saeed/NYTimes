@@ -40,6 +40,40 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="72.991071428571431"/>
         </scene>
+        <!--DetailVC-->
+        <scene sceneID="rvF-vP-veK">
+            <objects>
+                <viewController storyboardIdentifier="DetailVC" id="mxt-pu-MtS" customClass="DetailVC" customModule="AvriocAssessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="roj-d2-sPf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ntf-HT-d50">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DAe-1X-Syg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DAe-1X-Syg" firstAttribute="trailing" secondItem="Ntf-HT-d50" secondAttribute="trailing" id="2dN-AC-otU"/>
+                            <constraint firstItem="Ntf-HT-d50" firstAttribute="leading" secondItem="DAe-1X-Syg" secondAttribute="leading" id="SLj-Aj-gmG"/>
+                            <constraint firstItem="Ntf-HT-d50" firstAttribute="top" secondItem="DAe-1X-Syg" secondAttribute="top" id="ZHT-je-gAI"/>
+                            <constraint firstAttribute="bottom" secondItem="Ntf-HT-d50" secondAttribute="bottom" id="fhn-yT-9Kq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="Ntf-HT-d50" id="wlq-3z-O90"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sGP-Fv-2CF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794.20289855072474" y="-36.160714285714285"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

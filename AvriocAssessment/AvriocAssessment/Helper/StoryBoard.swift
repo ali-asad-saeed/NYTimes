@@ -8,11 +8,11 @@
 import Foundation
 
 enum Storyboard: String {
-    case main
+    case home
     
     var name: String {
         switch self {
-        case .main:
+        case .home:
             return "Main"
         }
     }

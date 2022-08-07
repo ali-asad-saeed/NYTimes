@@ -28,6 +28,8 @@
 		FAD353B2289FCD2D005AB80B /* NavigationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */; };
 		FAD353B4289FDBB4005AB80B /* BarButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */; };
 		FAD353B6289FDD19005AB80B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B5289FDD19005AB80B /* View+Ext.swift */; };
+		FAD353BA289FE46A005AB80B /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B8289FE46A005AB80B /* DetailVC.swift */; };
+		FAD353BD289FE54E005AB80B /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353BC289FE54E005AB80B /* DetailVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFactory.swift; sourceTree = "<group>"; };
 		FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonFactory.swift; sourceTree = "<group>"; };
 		FAD353B5289FDD19005AB80B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		FAD353B8289FE46A005AB80B /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		FAD353BC289FE54E005AB80B /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				FAD35395289EE785005AB80B /* Helper */,
 				FAD35392289EE66E005AB80B /* Base */,
 				FAD3538F289EE5C8005AB80B /* AppCoordinator */,
+				FAD353B7289FE3EC005AB80B /* Detail */,
 				FAD3539B289EE87E005AB80B /* Home */,
 				FAD3535F289EDC0A005AB80B /* AppDelegate.swift */,
 				FAD35365289EDC0A005AB80B /* Main.storyboard */,
@@ -233,6 +238,15 @@
 				FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		FAD353B7289FE3EC005AB80B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FAD353B8289FE46A005AB80B /* DetailVC.swift */,
+				FAD353BC289FE54E005AB80B /* DetailVM.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +386,7 @@
 				FAD353A7289F5E00005AB80B /* NewsCell.swift in Sources */,
 				FAD35394289EE678005AB80B /* Coordinator.swift in Sources */,
 				FAD35391289EE5D9005AB80B /* HomeCoordinator.swift in Sources */,
+				FAD353BA289FE46A005AB80B /* DetailVC.swift in Sources */,
 				FAD3539D289EE893005AB80B /* HomeVM.swift in Sources */,
 				FAD35364289EDC0A005AB80B /* HomeVC.swift in Sources */,
 				FAD353A1289EE944005AB80B /* BaseVM.swift in Sources */,
@@ -381,6 +396,7 @@
 				FAD353AB289F5FBB005AB80B /* AppColor.swift in Sources */,
 				FAD3539F289EE8DA005AB80B /* BaseVC.swift in Sources */,
 				FAD35360289EDC0A005AB80B /* AppDelegate.swift in Sources */,
+				FAD353BD289FE54E005AB80B /* DetailVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ class HomeCoordinator: Coordinator {
     var parentCoordinator: Coordinator?
     var children: [Coordinator] = []
     var navigationController: UINavigationController
-    let storyboard = UIStoryboard.init(name: Storyboard.main.name, bundle: .main)
+    let storyboard = UIStoryboard.init(name: Storyboard.home.name, bundle: .main)
     
     init(navController : UINavigationController) {
         self.navigationController = navController
@@ -35,5 +35,13 @@ class HomeCoordinator: Coordinator {
         homeVC.viewModel = homeViewModel
         // Push it.
         navigationController.pushViewController(homeVC, animated: true)
+    }
+    
+    func goToDetail(withLink: String){
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as! DetailVC
+        let detailVM = DetailVM.init()
+        detailVM.appCoordinator = self
+        detailVC.viewModel = detailVM
+        navigationController.pushViewController(detailVC, animated: true)
     }
 }

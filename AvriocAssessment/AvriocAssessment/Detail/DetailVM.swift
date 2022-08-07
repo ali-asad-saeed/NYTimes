@@ -1,16 +1,16 @@
 //
-//  HomeVM.swift
+//  DetailVM.swift
 //  AvriocAssessment
 //
-//  Created by macbook on 06/08/2022.
+//  Created by macbook on 07/08/2022.
 //
 
 import Foundation
 
-class HomeVM {
+class DetailVM {
     weak var appCoordinator : HomeCoordinator!
     
-    func goToDetailPage() {
+    func goBackHome() {
         appCoordinator.goToHome()
     }
 }
