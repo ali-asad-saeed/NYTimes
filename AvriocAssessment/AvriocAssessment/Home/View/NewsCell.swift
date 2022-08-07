@@ -9,15 +9,17 @@ import UIKit
 
 class NewsCell: UITableViewCell {
 
+    @IBOutlet weak var imgContainerView: UIView!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblSubTitle: UILabel!
+    @IBOutlet weak var lblAuthor: UILabel!
+    @IBOutlet weak var btnDate: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
+        imgContainerView.layer.cornerRadius = 20
+        
     }
     
 }

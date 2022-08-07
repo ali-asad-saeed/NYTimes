@@ -23,6 +23,11 @@
 		FAD353A1289EE944005AB80B /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353A0289EE944005AB80B /* BaseVM.swift */; };
 		FAD353A7289F5E00005AB80B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353A5289F5E00005AB80B /* NewsCell.swift */; };
 		FAD353A8289F5E00005AB80B /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD353A6289F5E00005AB80B /* NewsCell.xib */; };
+		FAD353AB289F5FBB005AB80B /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353AA289F5FBB005AB80B /* AppColor.swift */; };
+		FAD353AD289FC72D005AB80B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353AC289FC72D005AB80B /* Color+Ext.swift */; };
+		FAD353B2289FCD2D005AB80B /* NavigationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */; };
+		FAD353B4289FDBB4005AB80B /* BarButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */; };
+		FAD353B6289FDD19005AB80B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B5289FDD19005AB80B /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		FAD353A0289EE944005AB80B /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
 		FAD353A5289F5E00005AB80B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		FAD353A6289F5E00005AB80B /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		FAD353AA289F5FBB005AB80B /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		FAD353AC289FC72D005AB80B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFactory.swift; sourceTree = "<group>"; };
+		FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonFactory.swift; sourceTree = "<group>"; };
+		FAD353B5289FDD19005AB80B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,8 @@
 		FAD3535E289EDC0A005AB80B /* AvriocAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				FAD353B0289FCCF7005AB80B /* Factory */,
+				FAD353A9289F5FAE005AB80B /* Ext */,
 				FAD353A3289EEF18005AB80B /* NetworkLayer */,
 				FAD35395289EE785005AB80B /* Helper */,
 				FAD35392289EE66E005AB80B /* Base */,
@@ -165,6 +177,7 @@
 		FAD35395289EE785005AB80B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				FAD353AA289F5FBB005AB80B /* AppColor.swift */,
 				FAD35396289EE79E005AB80B /* StoryBoard.swift */,
 			);
 			path = Helper;
@@ -202,6 +215,24 @@
 				FAD353A6289F5E00005AB80B /* NewsCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FAD353A9289F5FAE005AB80B /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				FAD353AC289FC72D005AB80B /* Color+Ext.swift */,
+				FAD353B5289FDD19005AB80B /* View+Ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		FAD353B0289FCCF7005AB80B /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */,
+				FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD353B6289FDD19005AB80B /* View+Ext.swift in Sources */,
 				FAD35397289EE79E005AB80B /* StoryBoard.swift in Sources */,
 				FAD353A7289F5E00005AB80B /* NewsCell.swift in Sources */,
 				FAD35394289EE678005AB80B /* Coordinator.swift in Sources */,
@@ -343,6 +375,10 @@
 				FAD3539D289EE893005AB80B /* HomeVM.swift in Sources */,
 				FAD35364289EDC0A005AB80B /* HomeVC.swift in Sources */,
 				FAD353A1289EE944005AB80B /* BaseVM.swift in Sources */,
+				FAD353B4289FDBB4005AB80B /* BarButtonFactory.swift in Sources */,
+				FAD353AD289FC72D005AB80B /* Color+Ext.swift in Sources */,
+				FAD353B2289FCD2D005AB80B /* NavigationFactory.swift in Sources */,
+				FAD353AB289F5FBB005AB80B /* AppColor.swift in Sources */,
 				FAD3539F289EE8DA005AB80B /* BaseVC.swift in Sources */,
 				FAD35360289EDC0A005AB80B /* AppDelegate.swift in Sources */,
 			);
@@ -531,7 +567,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +596,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

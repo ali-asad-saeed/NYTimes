@@ -14,8 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var appCoordinator : HomeCoordinator?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        let navigationCon = UINavigationController.init()
+                
+        let navigationCon = NavigationFactory.createHomeNavController()
         appCoordinator = HomeCoordinator(navController: navigationCon)
         appCoordinator!.start()
         window!.rootViewController = navigationCon

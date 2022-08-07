@@ -1,21 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NewsCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="151" id="KGk-i7-Jjw" customClass="NewsCell" customModule="AvriocAssessment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="151"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="422.5" height="151"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ry6-bF-HZi">
+                        <rect key="frame" x="20" y="55.5" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0Rh-sn-ivT"/>
+                            <constraint firstAttribute="width" constant="40" id="Ypr-YF-XeZ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supportor of the democratic candidate Jon offs after this we see" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peT-5M-MoI">
+                        <rect key="frame" x="70" y="10" width="342.5" height="44"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By david thomason and other candidates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ox4-W7-x2l">
+                        <rect key="frame" x="70" y="64" width="342.5" height="22"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                        <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thompson" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l85-Ag-73w">
+                        <rect key="frame" x="70" y="117" width="76.5" height="22"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                        <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022-02-23" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSc-fV-zkj">
+                        <rect key="frame" x="336" y="119" width="66.5" height="18"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
+                        <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fG3-dG-gF8">
+                        <rect key="frame" x="313" y="121.5" width="15" height="12.5"/>
+                        <color key="tintColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Lsj-Q3-iSA"/>
+                            <constraint firstAttribute="width" constant="15" id="fwO-Vk-K4s"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="peT-5M-MoI" secondAttribute="trailing" constant="10" id="Bc3-6s-VRQ"/>
+                    <constraint firstItem="wSc-fV-zkj" firstAttribute="leading" secondItem="fG3-dG-gF8" secondAttribute="trailing" constant="8" id="FBV-eu-5G6"/>
+                    <constraint firstItem="ox4-W7-x2l" firstAttribute="top" secondItem="peT-5M-MoI" secondAttribute="bottom" constant="10" id="Krp-ZS-DkA"/>
+                    <constraint firstItem="peT-5M-MoI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="LEW-qA-CfE"/>
+                    <constraint firstItem="l85-Ag-73w" firstAttribute="centerY" secondItem="wSc-fV-zkj" secondAttribute="centerY" id="P35-Vh-j37"/>
+                    <constraint firstItem="fG3-dG-gF8" firstAttribute="centerY" secondItem="wSc-fV-zkj" secondAttribute="centerY" id="P3x-0q-3P3"/>
+                    <constraint firstItem="Ry6-bF-HZi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Qsq-ow-v9J"/>
+                    <constraint firstItem="peT-5M-MoI" firstAttribute="leading" secondItem="Ry6-bF-HZi" secondAttribute="trailing" constant="10" id="R09-hu-PAl"/>
+                    <constraint firstAttribute="trailing" secondItem="wSc-fV-zkj" secondAttribute="trailing" constant="20" id="WgD-Ja-74M"/>
+                    <constraint firstItem="Ry6-bF-HZi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="asW-ui-Nca"/>
+                    <constraint firstItem="ox4-W7-x2l" firstAttribute="trailing" secondItem="peT-5M-MoI" secondAttribute="trailing" id="jEi-AA-JnA"/>
+                    <constraint firstAttribute="bottom" secondItem="wSc-fV-zkj" secondAttribute="bottom" constant="14" id="wqy-yb-7aQ"/>
+                    <constraint firstItem="l85-Ag-73w" firstAttribute="leading" secondItem="ox4-W7-x2l" secondAttribute="leading" id="zE3-CY-XP6"/>
+                    <constraint firstItem="ox4-W7-x2l" firstAttribute="leading" secondItem="peT-5M-MoI" secondAttribute="leading" id="zko-8Z-yAM"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgContainerView" destination="Ry6-bF-HZi" id="toY-vg-41y"/>
+                <outlet property="lblAuthor" destination="l85-Ag-73w" id="RaV-ki-R1k"/>
+                <outlet property="lblSubTitle" destination="ox4-W7-x2l" id="eRp-zY-yoF"/>
+                <outlet property="lblTitle" destination="peT-5M-MoI" id="yRf-5z-12x"/>
+            </connections>
+            <point key="canvasLocation" x="227.536231884058" y="143.63839285714286"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+    </resources>
 </document>
