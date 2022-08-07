@@ -8,9 +8,9 @@
 import UIKit
 
 final class BarButtonFactory {
-    class func createBarButton(with imageName: String, owner: UIViewController?) -> UIBarButtonItem {
+    class func createBarButton(name imageName: String, owner: UIViewController?) -> UIBarButtonItem {
         
-        let leftItem = UIBarButtonItem(image: UIImage(systemName: imageName), style: .plain, target: owner, action: nil)
+        let leftItem = UIBarButtonItem(image: UIImage(named: imageName), style: .plain, target: owner, action: nil)
         leftItem.tintColor = .white
         return leftItem
     }

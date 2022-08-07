@@ -10,7 +10,7 @@ import Foundation
 class DetailVM {
     weak var appCoordinator : HomeCoordinator!
     
-    func goBackHome() {
-        appCoordinator.goToHome()
+    func goBack() {
+        appCoordinator.popController()
     }
 }

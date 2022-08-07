@@ -45,4 +45,8 @@ class HomeCoordinator: Coordinator {
         detailVC.link = withLink
         navigationController.pushViewController(detailVC, animated: true)
     }
+    
+    func popController() {
+        navigationController.popViewController(animated: true)
+    }
 }

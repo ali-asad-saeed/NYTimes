@@ -41,6 +41,7 @@
 		FAD353D2289FF2C3005AB80B /* ArticleMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353CE289FF2C3005AB80B /* ArticleMedia.swift */; };
 		FAD353D3289FF2C3005AB80B /* ArticleMediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353CF289FF2C3005AB80B /* ArticleMediaMetadata.swift */; };
 		FAD353D528A02A74005AB80B /* Controller+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353D428A02A74005AB80B /* Controller+Ext.swift */; };
+		FAD353D828A02DA8005AB80B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD353D728A02DA8005AB80B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		FAD353CE289FF2C3005AB80B /* ArticleMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleMedia.swift; sourceTree = "<group>"; };
 		FAD353CF289FF2C3005AB80B /* ArticleMediaMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleMediaMetadata.swift; sourceTree = "<group>"; };
 		FAD353D428A02A74005AB80B /* Controller+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Controller+Ext.swift"; sourceTree = "<group>"; };
+		FAD353D728A02DA8005AB80B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD353D828A02DA8005AB80B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 				FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */,
 				FAD3537F289EDC0D005AB80B /* AvriocAssessmentUITests */,
 				FAD3535D289EDC0A005AB80B /* Products */,
+				FAD353D628A02DA8005AB80B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,6 +300,14 @@
 				FAD353CD289FF2C2005AB80B /* ArticlesResult.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD353D628A02DA8005AB80B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD353D728A02DA8005AB80B /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -24,7 +24,7 @@ class DetailVC: BaseVC {
     }
     
     override func updateUI() {
-        let back = BarButtonFactory.createBarButton(with: "chevron.backward", owner: self)
+        let back = BarButtonFactory.createBarButton(name: "back", owner: self)
         navigationItem.leftBarButtonItem = back
         
         if let leftBarButtonItem = navigationItem.leftBarButtonItem {
@@ -35,6 +35,6 @@ class DetailVC: BaseVC {
     
     @objc
     func onBack() {
-        _ = navigationController?.popViewController(animated: true)
+        viewModel.goBack()
     }
 }

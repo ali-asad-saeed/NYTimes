@@ -31,11 +31,11 @@ class HomeVC: BaseVC {
         
         self.view.backgroundColor = AppColor.viewBGColor
         
-        let leftItem = BarButtonFactory.createBarButton(with: "line.3.horizontal", owner: nil)
-        navigationItem.leftBarButtonItem = leftItem
+        let leftItem = BarButtonFactory.createBarButton(name: "menu", owner: nil)
+        navigationItem.leftBarButtonItems = [leftItem]
         
-        let right1 = BarButtonFactory.createBarButton(with: "magnifyingglass", owner: nil)
-        let right2 = BarButtonFactory.createBarButton(with: "ellipsis", owner: nil)
+        let right1 = BarButtonFactory.createBarButton(name: "magnifier", owner: nil)
+        let right2 = BarButtonFactory.createBarButton(name: "rightMenu", owner: nil)
         navigationItem.rightBarButtonItems = [right2,right1]
     }
 }
