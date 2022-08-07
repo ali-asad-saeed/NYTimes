@@ -24,7 +24,6 @@
 		FAD353A7289F5E00005AB80B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353A5289F5E00005AB80B /* NewsCell.swift */; };
 		FAD353A8289F5E00005AB80B /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD353A6289F5E00005AB80B /* NewsCell.xib */; };
 		FAD353AB289F5FBB005AB80B /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353AA289F5FBB005AB80B /* AppColor.swift */; };
-		FAD353AD289FC72D005AB80B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353AC289FC72D005AB80B /* Color+Ext.swift */; };
 		FAD353B2289FCD2D005AB80B /* NavigationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */; };
 		FAD353B4289FDBB4005AB80B /* BarButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */; };
 		FAD353B6289FDD19005AB80B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353B5289FDD19005AB80B /* View+Ext.swift */; };
@@ -42,6 +41,8 @@
 		FAD353D3289FF2C3005AB80B /* ArticleMediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353CF289FF2C3005AB80B /* ArticleMediaMetadata.swift */; };
 		FAD353D528A02A74005AB80B /* Controller+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353D428A02A74005AB80B /* Controller+Ext.swift */; };
 		FAD353D828A02DA8005AB80B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD353D728A02DA8005AB80B /* WebKit.framework */; };
+		FAD353DD28A03CEF005AB80B /* homeList.json in Resources */ = {isa = PBXBuildFile; fileRef = FAD353DC28A03CEE005AB80B /* homeList.json */; };
+		FAD353DF28A03D91005AB80B /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD353DE28A03D91005AB80B /* Mockable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +84,6 @@
 		FAD353A5289F5E00005AB80B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		FAD353A6289F5E00005AB80B /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		FAD353AA289F5FBB005AB80B /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
-		FAD353AC289FC72D005AB80B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		FAD353B1289FCD2D005AB80B /* NavigationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFactory.swift; sourceTree = "<group>"; };
 		FAD353B3289FDBB4005AB80B /* BarButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonFactory.swift; sourceTree = "<group>"; };
 		FAD353B5289FDD19005AB80B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
@@ -101,6 +101,8 @@
 		FAD353CF289FF2C3005AB80B /* ArticleMediaMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleMediaMetadata.swift; sourceTree = "<group>"; };
 		FAD353D428A02A74005AB80B /* Controller+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Controller+Ext.swift"; sourceTree = "<group>"; };
 		FAD353D728A02DA8005AB80B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FAD353DC28A03CEE005AB80B /* homeList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeList.json; sourceTree = "<group>"; };
+		FAD353DE28A03D91005AB80B /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +175,9 @@
 		FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAD353DC28A03CEE005AB80B /* homeList.json */,
 				FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */,
+				FAD353DE28A03D91005AB80B /* Mockable.swift */,
 			);
 			path = AvriocAssessmentTests;
 			sourceTree = "<group>";
@@ -217,12 +221,11 @@
 		FAD3539B289EE87E005AB80B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FAD353DB28A03392005AB80B /* Network */,
 				FAD353CB289FF2B6005AB80B /* Model */,
 				FAD353A4289F5DD1005AB80B /* View */,
 				FAD35363289EDC0A005AB80B /* HomeVC.swift */,
 				FAD3539C289EE893005AB80B /* HomeVM.swift */,
-				FAD353C7289FF0B8005AB80B /* HomeEndpoint.swift */,
-				FAD353C9289FF256005AB80B /* HomeService.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -256,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD353D428A02A74005AB80B /* Controller+Ext.swift */,
-				FAD353AC289FC72D005AB80B /* Color+Ext.swift */,
 				FAD353B5289FDD19005AB80B /* View+Ext.swift */,
 			);
 			path = Ext;
@@ -308,6 +310,15 @@
 				FAD353D728A02DA8005AB80B /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD353DB28A03392005AB80B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAD353C7289FF0B8005AB80B /* HomeEndpoint.swift */,
+				FAD353C9289FF256005AB80B /* HomeService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD353DD28A03CEF005AB80B /* homeList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +472,6 @@
 				FAD35364289EDC0A005AB80B /* HomeVC.swift in Sources */,
 				FAD353A1289EE944005AB80B /* BaseVM.swift in Sources */,
 				FAD353B4289FDBB4005AB80B /* BarButtonFactory.swift in Sources */,
-				FAD353AD289FC72D005AB80B /* Color+Ext.swift in Sources */,
 				FAD353D0289FF2C3005AB80B /* NYTimesBaseModel.swift in Sources */,
 				FAD353D1289FF2C3005AB80B /* ArticlesResult.swift in Sources */,
 				FAD353B2289FCD2D005AB80B /* NavigationFactory.swift in Sources */,
@@ -476,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD353DF28A03D91005AB80B /* Mockable.swift in Sources */,
 				FAD35377289EDC0C005AB80B /* AvriocAssessmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

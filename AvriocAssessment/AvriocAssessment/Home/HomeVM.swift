@@ -10,11 +10,12 @@ import Foundation
 class HomeVM: BaseVM {
     weak var appCoordinator : HomeCoordinator!
     var dataSource : NYTimesBaseModel?
-    var homeService : HomeService
+    var homeService : HomeServiceable
     
     weak var delegate : HomeVCProtocol?
-    override init(){
-        homeService = HomeService()
+    init(homeService: HomeServiceable){
+        self.homeService = homeService
+        super.init()
     }
     
     override func fetchData() {

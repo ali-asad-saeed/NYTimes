@@ -28,7 +28,7 @@ class HomeCoordinator: Coordinator {
         // Instantiate HomeVC
         let homeVC = storyboard.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
         // Instantiate HomeViewModel
-        let homeViewModel = HomeVM.init()
+        let homeViewModel = HomeVM.init(homeService: HomeService())
         // Set the Coordinator to the ViewModel
         homeViewModel.appCoordinator = self
         // Set the ViewModel to ViewController
