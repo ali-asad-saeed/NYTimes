@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import AvriocAssessment
+@testable import Assessment
 
 
 final class HomeVMMock: Mockable, HomeServiceable {

@@ -13,8 +13,8 @@
 		FAD35369289EDC0C005AB80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD35368289EDC0C005AB80B /* Assets.xcassets */; };
 		FAD3536C289EDC0C005AB80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3536A289EDC0C005AB80B /* LaunchScreen.storyboard */; };
 		FAD35377289EDC0C005AB80B /* AvriocAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */; };
-		FAD35381289EDC0D005AB80B /* AvriocAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */; };
-		FAD35383289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */; };
+		FAD35381289EDC0D005AB80B /* AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35380289EDC0D005AB80B /* AssessmentUITests.swift */; };
+		FAD35383289EDC0D005AB80B /* AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35382289EDC0D005AB80B /* AssessmentUITestsLaunchTests.swift */; };
 		FAD35391289EE5D9005AB80B /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35390289EE5D9005AB80B /* HomeCoordinator.swift */; };
 		FAD35394289EE678005AB80B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35393289EE678005AB80B /* Coordinator.swift */; };
 		FAD35397289EE79E005AB80B /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD35396289EE79E005AB80B /* StoryBoard.swift */; };
@@ -73,8 +73,8 @@
 		FAD35372289EDC0C005AB80B /* AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentTests.swift; sourceTree = "<group>"; };
 		FAD3537C289EDC0D005AB80B /* AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITests.swift; sourceTree = "<group>"; };
-		FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAD35380289EDC0D005AB80B /* AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentUITests.swift; sourceTree = "<group>"; };
+		FAD35382289EDC0D005AB80B /* AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAD35390289EE5D9005AB80B /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		FAD35393289EE678005AB80B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		FAD35396289EE79E005AB80B /* StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 		FAD35353289EDC0A005AB80B = {
 			isa = PBXGroup;
 			children = (
-				FAD3535E289EDC0A005AB80B /* AvriocAssessment */,
-				FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */,
-				FAD3537F289EDC0D005AB80B /* AvriocAssessmentUITests */,
+				FAD3535E289EDC0A005AB80B /* Assessment */,
+				FAD35375289EDC0C005AB80B /* AssessmentTests */,
+				FAD3537F289EDC0D005AB80B /* AssessmentUITests */,
 				FAD3535D289EDC0A005AB80B /* Products */,
 				FAD353D628A02DA8005AB80B /* Frameworks */,
 			);
@@ -152,7 +152,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAD3535E289EDC0A005AB80B /* AvriocAssessment */ = {
+		FAD3535E289EDC0A005AB80B /* Assessment */ = {
 			isa = PBXGroup;
 			children = (
 				FAD353B0289FCCF7005AB80B /* Factory */,
@@ -169,26 +169,26 @@
 				FAD3536A289EDC0C005AB80B /* LaunchScreen.storyboard */,
 				FAD3536D289EDC0C005AB80B /* Info.plist */,
 			);
-			path = AvriocAssessment;
+			path = Assessment;
 			sourceTree = "<group>";
 		};
-		FAD35375289EDC0C005AB80B /* AvriocAssessmentTests */ = {
+		FAD35375289EDC0C005AB80B /* AssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
 				FAD353DC28A03CEE005AB80B /* homeList.json */,
 				FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */,
 				FAD353DE28A03D91005AB80B /* Mockable.swift */,
 			);
-			path = AvriocAssessmentTests;
+			path = AssessmentTests;
 			sourceTree = "<group>";
 		};
-		FAD3537F289EDC0D005AB80B /* AvriocAssessmentUITests */ = {
+		FAD3537F289EDC0D005AB80B /* AssessmentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */,
-				FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */,
+				FAD35380289EDC0D005AB80B /* AssessmentUITests.swift */,
+				FAD35382289EDC0D005AB80B /* AssessmentUITestsLaunchTests.swift */,
 			);
-			path = AvriocAssessmentUITests;
+			path = AssessmentUITests;
 			sourceTree = "<group>";
 		};
 		FAD3538F289EE5C8005AB80B /* AppCoordinator */ = {
@@ -488,8 +488,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD35383289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift in Sources */,
-				FAD35381289EDC0D005AB80B /* AvriocAssessmentUITests.swift in Sources */,
+				FAD35383289EDC0D005AB80B /* AssessmentUITestsLaunchTests.swift in Sources */,
+				FAD35381289EDC0D005AB80B /* AssessmentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +653,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MH4A3H8G7P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AvriocAssessment/Info.plist;
+				INFOPLIST_FILE = Assessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -665,7 +665,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.Assessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -682,7 +682,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MH4A3H8G7P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AvriocAssessment/Info.plist;
+				INFOPLIST_FILE = Assessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -694,7 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gof.AvriocAssessment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.Assessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
