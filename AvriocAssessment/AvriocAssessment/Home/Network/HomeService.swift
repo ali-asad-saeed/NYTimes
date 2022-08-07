@@ -16,6 +16,7 @@ protocol HomeServiceable {
 struct HomeService: NYTimesClient, HomeServiceable {
     
     func getHomeList(for period: Int, completionHandler: @escaping (Result<NYTimesBaseModel, NYTimesReqError>)->()) {
+        
         sendRequest(endpoint: HomeEndpoint.mostViewed(period: period), responseModel: NYTimesBaseModel.self, completionHandler: completionHandler)
     }
 }

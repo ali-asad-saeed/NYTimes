@@ -21,9 +21,12 @@ extension HomeEndpoint: NYTimesEndpoint {
     }
     
     var queryItems: [URLQueryItem]? {
-        let accessToken = "e4GtMKxeV5uNAJsl8myrEG7JhoufGHWO"
-        let item = URLQueryItem(name: "api-key", value: accessToken)
-         return [item]
+        switch self {
+        case .mostViewed:
+            let accessToken = "e4GtMKxeV5uNAJsl8myrEG7JhoufGHWO"
+            let item = URLQueryItem(name: "api-key", value: accessToken)
+            return [item]
+        }
     }
 
     var method: NYTimesReqMethod {

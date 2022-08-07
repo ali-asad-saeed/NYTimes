@@ -202,7 +202,7 @@
 		FAD35392289EE66E005AB80B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				FAD353A2289EEEFD005AB80B /* Coordinator */,
+				FAD35393289EE678005AB80B /* Coordinator.swift */,
 				FAD3539E289EE8DA005AB80B /* BaseVC.swift */,
 				FAD353A0289EE944005AB80B /* BaseVM.swift */,
 			);
@@ -228,14 +228,6 @@
 				FAD3539C289EE893005AB80B /* HomeVM.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		FAD353A2289EEEFD005AB80B /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				FAD35393289EE678005AB80B /* Coordinator.swift */,
-			);
-			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		FAD353A3289EEF18005AB80B /* NetworkLayer */ = {
