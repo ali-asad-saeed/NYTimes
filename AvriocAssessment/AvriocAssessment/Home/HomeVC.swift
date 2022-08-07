@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol HomeVCProtocol : NSObjectProtocol {
+    func didGetList(errorMsg: NYTimesReqError?)
+}
+
 class HomeVC: BaseVC {
 
     var viewModel : HomeVM!
@@ -15,6 +19,7 @@ class HomeVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewModel.delegate = self
         self.title = "NY Times Most Popular"
         tblView.delegate = self
         tblView.dataSource = self
@@ -33,13 +38,19 @@ class HomeVC: BaseVC {
         let right2 = BarButtonFactory.createBarButton(with: "ellipsis", owner: nil)
         navigationItem.rightBarButtonItems = [right2,right1]
     }
-    
-    @objc
-    func addTapped() {
-        
-    }
 }
 
+extension HomeVC : HomeVCProtocol {
+    func didGetList(errorMsg: NYTimesReqError?) {
+        if let errorMsg = errorMsg {
+            self.showAlert(title: "Alert!", msg: errorMsg.customMessage)
+        }else{
+            DispatchQueue.main.async {
+                self.tblView.reloadData()
+            }
+        }
+    }
+}
 extension HomeVC : UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -47,11 +58,13 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return viewModel.dataSource?.results?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell") as! NewsCell
+        cell.data = viewModel.dataSource?.results?[indexPath.row]
+        cell.updateUI()
         return cell
     }
     
@@ -60,6 +73,7 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModel.appCoordinator.goToDetail(withLink: "")
+        let link = viewModel.dataSource?.results?[indexPath.row].url
+        viewModel.appCoordinator.goToDetail(withLink: link)
     }
 }

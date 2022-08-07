@@ -37,11 +37,12 @@ class HomeCoordinator: Coordinator {
         navigationController.pushViewController(homeVC, animated: true)
     }
     
-    func goToDetail(withLink: String){
+    func goToDetail(withLink: String?){
         let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as! DetailVC
         let detailVM = DetailVM.init()
         detailVM.appCoordinator = self
         detailVC.viewModel = detailVM
+        detailVC.link = withLink
         navigationController.pushViewController(detailVC, animated: true)
     }
 }

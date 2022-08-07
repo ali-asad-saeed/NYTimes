@@ -8,6 +8,10 @@
 import Foundation
 
 class BaseVM  {
+
+    init() {
+        fetchData()
+    }
     
     func fetchData() {
         

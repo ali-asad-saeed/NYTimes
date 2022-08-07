@@ -12,14 +12,29 @@ class DetailVC: BaseVC {
 
     @IBOutlet weak var webView: WKWebView!
     var viewModel : DetailVM!
-    var link: String = "https://www.youtube.com/watch?v=695PN9xaEhs"
+    var link: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if let url = URL(string: link) {
+        
+        if let link = link , let url = URL(string: link) {
             let request = URLRequest(url: url)
             webView.load(request)
         }
+    }
+    
+    override func updateUI() {
+        let back = BarButtonFactory.createBarButton(with: "chevron.backward", owner: self)
+        navigationItem.leftBarButtonItem = back
+        
+        if let leftBarButtonItem = navigationItem.leftBarButtonItem {
+            leftBarButtonItem.target = self
+            leftBarButtonItem.action = #selector(onBack)
+        }
+    }
+    
+    @objc
+    func onBack() {
+        _ = navigationController?.popViewController(animated: true)
     }
 }

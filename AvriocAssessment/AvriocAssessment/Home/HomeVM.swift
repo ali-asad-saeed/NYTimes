@@ -7,8 +7,28 @@
 
 import Foundation
 
-class HomeVM {
+class HomeVM: BaseVM {
     weak var appCoordinator : HomeCoordinator!
+    var dataSource : NYTimesBaseModel?
+    var homeService : HomeService
+    
+    weak var delegate : HomeVCProtocol?
+    override init(){
+        homeService = HomeService()
+    }
+    
+    override func fetchData() {
+        homeService.getHomeList(for: 1) { [weak self] result in
+            
+            switch result {
+            case .success(let articles):
+                self?.dataSource = articles
+                self?.delegate?.didGetList(errorMsg: nil)
+            case .failure(let failure):
+                self?.delegate?.didGetList(errorMsg: failure)
+            }
+        }
+    }
     
     func goToDetailPage() {
         appCoordinator.goToHome()

@@ -79,6 +79,7 @@
             <connections>
                 <outlet property="imgContainerView" destination="Ry6-bF-HZi" id="toY-vg-41y"/>
                 <outlet property="lblAuthor" destination="l85-Ag-73w" id="RaV-ki-R1k"/>
+                <outlet property="lblDate" destination="wSc-fV-zkj" id="KVk-Wu-FQK"/>
                 <outlet property="lblSubTitle" destination="ox4-W7-x2l" id="eRp-zY-yoF"/>
                 <outlet property="lblTitle" destination="peT-5M-MoI" id="yRf-5z-12x"/>
             </connections>
