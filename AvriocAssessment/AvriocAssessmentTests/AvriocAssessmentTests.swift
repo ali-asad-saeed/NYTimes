@@ -17,7 +17,7 @@ final class HomeVMMock: Mockable, HomeServiceable {
 
 final class HomeServiceMock: Mockable, HomeServiceable {
     func getHomeList(for period: Int, completionHandler: @escaping (Result<NYTimesBaseModel, NYTimesReqError>)->()) {
-        completionHandler(.failure(.noResponse))
+        completionHandler(.failure(.unexpectedStatusCode))
     }
 }
 
