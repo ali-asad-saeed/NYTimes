@@ -63,16 +63,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvriocAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3535C289EDC0A005AB80B /* Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD3535F289EDC0A005AB80B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD35363289EDC0A005AB80B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FAD35366289EDC0A005AB80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD35368289EDC0C005AB80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD3536B289EDC0C005AB80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD3536D289EDC0C005AB80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvriocAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD35372289EDC0C005AB80B /* AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD35376289EDC0C005AB80B /* AvriocAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentTests.swift; sourceTree = "<group>"; };
-		FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvriocAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3537C289EDC0D005AB80B /* AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD35380289EDC0D005AB80B /* AvriocAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITests.swift; sourceTree = "<group>"; };
 		FAD35382289EDC0D005AB80B /* AvriocAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvriocAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAD35390289EE5D9005AB80B /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 		FAD3535D289EDC0A005AB80B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */,
-				FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */,
-				FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */,
+				FAD3535C289EDC0A005AB80B /* Assessment.app */,
+				FAD35372289EDC0C005AB80B /* AssessmentTests.xctest */,
+				FAD3537C289EDC0D005AB80B /* AssessmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,9 +316,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAD3535B289EDC0A005AB80B /* AvriocAssessment */ = {
+		FAD3535B289EDC0A005AB80B /* Assessment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessment" */;
+			buildConfigurationList = FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "Assessment" */;
 			buildPhases = (
 				FAD35358289EDC0A005AB80B /* Sources */,
 				FAD35359289EDC0A005AB80B /* Frameworks */,
@@ -328,14 +328,14 @@
 			);
 			dependencies = (
 			);
-			name = AvriocAssessment;
+			name = Assessment;
 			productName = AvriocAssessment;
-			productReference = FAD3535C289EDC0A005AB80B /* AvriocAssessment.app */;
+			productReference = FAD3535C289EDC0A005AB80B /* Assessment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAD35371289EDC0C005AB80B /* AvriocAssessmentTests */ = {
+		FAD35371289EDC0C005AB80B /* AssessmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentTests" */;
+			buildConfigurationList = FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AssessmentTests" */;
 			buildPhases = (
 				FAD3536E289EDC0C005AB80B /* Sources */,
 				FAD3536F289EDC0C005AB80B /* Frameworks */,
@@ -346,14 +346,14 @@
 			dependencies = (
 				FAD35374289EDC0C005AB80B /* PBXTargetDependency */,
 			);
-			name = AvriocAssessmentTests;
+			name = AssessmentTests;
 			productName = AvriocAssessmentTests;
-			productReference = FAD35372289EDC0C005AB80B /* AvriocAssessmentTests.xctest */;
+			productReference = FAD35372289EDC0C005AB80B /* AssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAD3537B289EDC0D005AB80B /* AvriocAssessmentUITests */ = {
+		FAD3537B289EDC0D005AB80B /* AssessmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentUITests" */;
+			buildConfigurationList = FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AssessmentUITests" */;
 			buildPhases = (
 				FAD35378289EDC0D005AB80B /* Sources */,
 				FAD35379289EDC0D005AB80B /* Frameworks */,
@@ -364,9 +364,9 @@
 			dependencies = (
 				FAD3537E289EDC0D005AB80B /* PBXTargetDependency */,
 			);
-			name = AvriocAssessmentUITests;
+			name = AssessmentUITests;
 			productName = AvriocAssessmentUITests;
-			productReference = FAD3537C289EDC0D005AB80B /* AvriocAssessmentUITests.xctest */;
+			productReference = FAD3537C289EDC0D005AB80B /* AssessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -392,7 +392,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "AvriocAssessment" */;
+			buildConfigurationList = FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "Assessment" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -405,9 +405,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAD3535B289EDC0A005AB80B /* AvriocAssessment */,
-				FAD35371289EDC0C005AB80B /* AvriocAssessmentTests */,
-				FAD3537B289EDC0D005AB80B /* AvriocAssessmentUITests */,
+				FAD3535B289EDC0A005AB80B /* Assessment */,
+				FAD35371289EDC0C005AB80B /* AssessmentTests */,
+				FAD3537B289EDC0D005AB80B /* AssessmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -498,12 +498,12 @@
 /* Begin PBXTargetDependency section */
 		FAD35374289EDC0C005AB80B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAD3535B289EDC0A005AB80B /* AvriocAssessment */;
+			target = FAD3535B289EDC0A005AB80B /* Assessment */;
 			targetProxy = FAD35373289EDC0C005AB80B /* PBXContainerItemProxy */;
 		};
 		FAD3537E289EDC0D005AB80B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAD3535B289EDC0A005AB80B /* AvriocAssessment */;
+			target = FAD3535B289EDC0A005AB80B /* Assessment */;
 			targetProxy = FAD3537D289EDC0D005AB80B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -723,7 +723,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvriocAssessment.app/AvriocAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assessment.app/Assessment";
 			};
 			name = Debug;
 		};
@@ -748,7 +748,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvriocAssessment.app/AvriocAssessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assessment.app/Assessment";
 			};
 			name = Release;
 		};
@@ -801,7 +801,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "AvriocAssessment" */ = {
+		FAD35357289EDC0A005AB80B /* Build configuration list for PBXProject "Assessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAD35384289EDC0D005AB80B /* Debug */,
@@ -810,7 +810,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessment" */ = {
+		FAD35386289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "Assessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAD35387289EDC0D005AB80B /* Debug */,
@@ -819,7 +819,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentTests" */ = {
+		FAD35389289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AssessmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAD3538A289EDC0D005AB80B /* Debug */,
@@ -828,7 +828,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AvriocAssessmentUITests" */ = {
+		FAD3538C289EDC0D005AB80B /* Build configuration list for PBXNativeTarget "AssessmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAD3538D289EDC0D005AB80B /* Debug */,
